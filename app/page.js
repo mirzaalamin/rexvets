@@ -74,7 +74,6 @@ export default function Home() {
         </div>
 
       </div>
-      <h2 className="text-red-500">Next Section</h2>
     </div>
   );
 }
