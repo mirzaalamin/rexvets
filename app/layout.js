@@ -1,5 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from 'next/font/local'
+
+const helvetica = localFont({
+  src: "./fonts/Helvetica.ttf",
+  variable: "--font-helvetica",
+  weight: "100 200 300 400 500 600 700 800 900"
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${helvetica.variable} antialiased`}
       >
         {children}
       </body>
