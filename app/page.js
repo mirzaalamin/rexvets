@@ -29,20 +29,20 @@ export default function Home() {
                 </span>
                 🏥 Non-Profit Veterinary Care</div>
 
-              <h1 className="text-[3rem] lg:text-[96px] font-extrabold text-white text-center lg:text-left leading-16 lg:leading-28 font-helvetica">Low-Cost <br />
+              <h1 className="text-[36px] lg:text-[96px] font-extrabold text-white text-center lg:text-left leading-12 lg:leading-28 font-helvetica">Low-Cost <br />
                 <span className="bg-gradient-to-r from-[#5E8AD9] to-[#B66DBB] bg-clip-text text-transparent">Veterinary Care</span>
               </h1>
 
 
-              <div className="text-[#60A5FA] text-[15px] lg:text-[24px] text-center font-bold flex items-center justify-center lg:justify-start gap-3"><FaRegClock size={24} /> <span>24/7 Online Vet Appointments - Ask a Vet</span></div>
+              <div className="text-[#60A5FA] text-[14px] lg:text-[24px] text-center font-bold flex items-center justify-center lg:justify-start gap-3"><FaRegClock size={24} /> <span>24/7 Online Vet Appointments - Ask a Vet</span></div>
               <p className="text-white font-bold leading-10 text-center lg:text-left text-[17px] lg:text-[1.3rem] lg:w-[700px]">As a non-profit organization, Rex Vets provides affordable telehealth consultations to ensure every pet gets the care they deserve from the comfort of home. Breaking barriers, building bonds.</p>
             </div>
             <div className="flex flex-col lg:flex-row gap-6">
               <div className="flex flex-wrap items-center gap-2 md:flex-row ">
-                <Button className="glowing-button bg-[linear-gradient(45deg,_rgb(59,130,246)_0%,_rgb(139,92,246)_50%,_rgb(236,72,153)_100%)] rounded-full w-[450px] lg:w-[250px] py-8 font-bold text-[16px] cursor-pointer"><Image src="/icons/video-icon.svg" alt="video icon" width={24} height={24} /> Book Consultation</Button>
+                <Button className="glowing-button bg-[linear-gradient(45deg,_rgb(59,130,246)_0%,_rgb(139,92,246)_50%,_rgb(236,72,153)_100%)] rounded-full w-[350px] lg:w-[250px] py-8 font-bold text-[16px] cursor-pointer"><Image src="/icons/video-icon.svg" alt="video icon" width={24} height={24} /> Book Consultation</Button>
               </div>
               <div className="flex flex-wrap items-center gap-2 md:flex-row ">
-                <Button className="glowing-button-2 backdrop-blur-md bg-white/10 hover:bg-white/30 border-2 border-gray-400 p-6 shadow-lg rounded-full w-[450px] lg:w-[250px] py-8 font-bold text-[16px] cursor-pointer"><Image src="/icons/heart.svg" alt="heart icon" width={20} height={20} /> Support Our Mission </Button>
+                <Button className="glowing-button-2 backdrop-blur-md bg-white/10 hover:bg-white/30 border-2 border-gray-400 p-6 shadow-lg rounded-full w-[350px] lg:w-[250px] py-8 font-bold text-[16px] cursor-pointer"><Image src="/icons/heart.svg" alt="heart icon" width={20} height={20} /> Support Our Mission </Button>
               </div>
             </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
               </h1>
               <h6 className="font-bold text-[20px] bg-gradient-to-r from-[#779CFA] to-[#9193F9] bg-clip-text text-transparent">Dr. Tiffany Delacruz, DVM</h6>
             </div>
-            <div className="backdrop-blur-md bg-white/10 px-7 pt-7 rounded-3xl">
+            <div className="backdrop-blur-md bg-white/10 px-4 pt-4 lg:px-7 lg:pt-7 rounded-3xl">
               <Video />
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
 
       </div>
 
-      <div className="bg-[#021130] flex flex-col lg:flex-row items-center">
+      <div className="bg-[#021130] flex flex-col lg:flex-row items-center pb-6">
         <div className="py-5 px-2 text-center lg:text-left w-full lg:w-[300px] lg:pr-15">
           <h5 className="text-[20px] text-white font-bold">
             Award winning & featured in...

@@ -31,7 +31,7 @@ export default function Video() {
 
     return (
         <div className="flex items-center justify-center p-4">
-            <div className="relative w-[300px] lg:w-[480px] h-[450px] lg:h-[600px]  rounded-2xl overflow-hidden shadow-xl bg-black">
+            <div className="relative w-[250px] lg:w-[480px] h-[400px] lg:h-[600px]  rounded-2xl overflow-hidden shadow-xl bg-black">
                 <video
                     ref={videoRef}
                     src="https://res.cloudinary.com/di6zff0rd/video/upload/v1753102241/RexVetsWeb_tb3zcq.mp4"
