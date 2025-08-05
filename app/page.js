@@ -5,6 +5,7 @@ import { IoStar } from "react-icons/io5";
 
 import Image from "next/image";
 import Video from "@/components/Video";
+import LogoCarousel from "@/components/LogoCarousel";
 
 
 
@@ -73,6 +74,15 @@ export default function Home() {
 
         </div>
 
+      </div>
+
+      <div className="bg-[#021130] flex flex-col lg:flex-row items-center">
+        <div className="py-5 px-2 text-center lg:text-left w-full lg:w-[300px] lg:pr-15">
+          <h5 className="text-[20px] text-white font-bold">
+            Award winning & featured in...
+          </h5>
+        </div>
+        <LogoCarousel />
       </div>
     </div>
   );
