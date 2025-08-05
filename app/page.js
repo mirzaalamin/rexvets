@@ -15,13 +15,19 @@ export default function Home() {
     <div className="">
 
       {/* column 1 */}
-      <div className="bg-[linear-gradient(135deg,_rgb(15,12,41)_0%,_rgb(36,36,62)_25%,_rgb(48,43,99)_50%,_rgb(15,52,96)_75%,_rgb(0,35,102)_100%)] w-full h-full min-h-screen p-3">
+      <div className="relative overflow-hidden bg-[linear-gradient(135deg,_rgb(15,12,41)_0%,_rgb(36,36,62)_25%,_rgb(48,43,99)_50%,_rgb(15,52,96)_75%,_rgb(0,35,102)_100%)] w-full h-full min-h-screen p-3">
+
 
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-30 lg:w-[1480px] m-auto px-10">
 
           <div className="flex flex-auto lg:w-[700px] flex-col justify-center lg:justify-start items-center lg:items-start py-10 gap-10">
             <div className="flex flex-col gap-10">
-              <div className="bg-[#636789] pulse-badge text-white rounded-full w-[300px] p-1 text-center m-auto lg:m-0">🏥 Non-Profit Veterinary Care</div>
+              <div className="bg-[#636789] pulse-badge text-white rounded-full w-[300px] p-1 text-center m-auto lg:m-0">
+                <span className="absolute top-0 left-2 text-blue-400 text-xl animate-bounce-rotate">
+                  {/* <!-- Inline your SVG here --> */}
+                  <Image src="./icons/stars.svg" height={24} width={24} />
+                </span>
+                🏥 Non-Profit Veterinary Care</div>
 
               <h1 className="text-[3rem] lg:text-[96px] font-extrabold text-white text-center lg:text-left leading-16 lg:leading-28 font-helvetica">Low-Cost <br />
                 <span className="bg-gradient-to-r from-[#5E8AD9] to-[#B66DBB] bg-clip-text text-transparent">Veterinary Care</span>
